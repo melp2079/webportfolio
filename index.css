@@ -1,0 +1,13 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Caveat', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans 3', sans-serif;
+}
