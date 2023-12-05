@@ -3,11 +3,133 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Raleway';
+}
+
+.navbar {
+	opacity: 0.8;
+	font-family: 'Raleway';
+	font-weight: 20;
+}
+
+.navbar > a {
+	font-family: 'Pacifico';
+	color: #004964 !important;
+	font-weight: 40;
+	font-size: 2rem;
+}
+
+.nav-item {
+	font-weight: 30;
+	font-size: 1.15rem;
 }
 
 body {
-	font-family: 'Dancing Script', cursive;
 	font-family: 'Caveat', cursive;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Source Sans 3', sans-serif;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Raleway', sans-serif;
+}
+
+#landing {
+	background-color: #b4e2f1;
+	background-image: url("./images/backgroundimage2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.content h3 {
+	font-family: 'Pacifico';
+	color: #b4e2f1;
+}
+
+.content p {
+	font-family: 'Raleway';
+	font-weight: 10;
+	color: #b4e2f1;
+}
+
+#projects h2 {
+	font-family:'Pacifico';
+	font-weight: 25;
+	font-size: 50;
+	color: white;
+}
+
+#tools	{
+	opacity: 0.8;
+}
+
+#tools h2 {
+	font-family:'Pacifico';
+	font-weight: 25;
+	font-size: 50;
+	color: white;
+}
+
+#contact h2 {
+	font-family:'Pacifico';
+	font-weight: 25;
+	font-size: 50;
+	color: white;
+}
+
+.card_capstone {
+	border: 15px solid #eaca5e;
+	opacity: 0.8;
+}
+
+.card_capstone > img {
+	opacity: 1.0;
+
+}
+
+.card_landing {
+	background-color: #004964;
+	background-position: center;
+	width: 320px;
+	height: 420px;
+	border-radius: 20px;
+	overflow: hidden;
+	border: 8px solid darkgoldenrod;
+	position: relative;
+	opacity: 0.8;
+
+.card_landing::before {
+	content: '';
+	position: absolute;
+	background-color: #b4e2f1;
+	background-position: center;
+	border-radius: 20px;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+	rigth: 0px;
+	top: 0px;
+	opacity: 0.6;
+}
+
+.Melinda-img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+	border-radius: 20px;
+}
+
+#projects {
+	background-color: #ffffff;
+	opacity: 0.9;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	background-color: #004964;
+	border: 8px solid darkgoldenrod;
+}
+
+@font-face {
+	font-family: ;
 }
