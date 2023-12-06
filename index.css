@@ -70,6 +70,7 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
+	overflow-x: hidden;
 
 }
 
@@ -120,8 +121,8 @@ body {
 }
 
 .Melinda-img {
-	width: 70%;
-	height: 70%;
+	width: 10rem;
+	max-width: 100%;
 	object-fit: contain;
 	object-position: center;
 	border: 5px double darkgoldenrod;
