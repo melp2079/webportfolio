@@ -7,16 +7,20 @@
 }
 
 .navbar {
-	opacity: 0.8;
+	opacity: 0.9;
 	font-family: 'Raleway';
-	font-weight: 20;
+	color: #004964 !important;
+	font-weight: 40;
+	font-size: 1.5rem;
+	background-color: darkgoldenrod;
 }
 
 .navbar > a {
 	font-family: 'Pacifico';
 	color: #004964 !important;
 	font-weight: 40;
-	font-size: 2rem;
+	margin-left: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .nav-item {
@@ -50,39 +54,57 @@ body {
 	color: #b4e2f1;
 }
 
+#projects {
+	background-color: darkgoldenrod;
+}
 #projects h2 {
 	font-family:'Pacifico';
 	font-weight: 25;
-	font-size: 50;
+	font-size: 3rem;
 	color: white;
 }
 
 #tools	{
-	opacity: 0.8;
+	background-image: url("./images/backgroundimage2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
 }
 
 #tools h2 {
 	font-family:'Pacifico';
 	font-weight: 25;
-	font-size: 50;
+	font-size: 3rem;
+	color: white;
+}
+
+#tools h3 {
+	font-family:'Raleway';
+	font-weight: 25;
+	font-size: 2rem;
 	color: white;
 }
 
 #contact h2 {
 	font-family:'Pacifico';
 	font-weight: 25;
-	font-size: 50;
+	font-size: 3rem;
 	color: white;
 }
 
 .card_capstone {
-	border: 15px solid #eaca5e;
-	opacity: 0.8;
+	background-color: #004964;
+	border-radius: 20px;
+	overflow: hidden;
+	border: 8px solid darkgoldenrod;
+	position: relative;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
 }
 
 .card_capstone > img {
 	opacity: 1.0;
-
 }
 
 .card_landing {
@@ -94,42 +116,35 @@ body {
 	overflow: hidden;
 	border: 8px solid darkgoldenrod;
 	position: relative;
-	opacity: 0.8;
-
-.card_landing::before {
-	content: '';
-	position: absolute;
-	background-color: #b4e2f1;
-	background-position: center;
-	border-radius: 20px;
-	overflow: hidden;
-	top: 0px;
-	left: 0px;
-	rigth: 0px;
-	top: 0px;
-	opacity: 0.6;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
 }
 
 .Melinda-img {
-	width: 100%;
-	height: 100%;
+	width: 70%;
+	height: 70%;
 	object-fit: contain;
 	object-position: center;
-	border-radius: 20px;
+	border: 5px double darkgoldenrod;
+	border-radius: 75%;
 }
 
 #projects {
-	background-color: #ffffff;
-	opacity: 0.9;
+	background-image: url("./images/backgroundimage2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
 
-.card {
-	display: flex;
-	justify-content: center;
-	background-color: #004964;
-	border: 8px solid darkgoldenrod;
+.footer {
+	font-family:'Raleway';
+	font-weight: 25;
+	font-size: 1rem;
+	color: white;
+	background-image: url("./images/backgroundimage2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
 
-@font-face {
-	font-family: ;
-}
